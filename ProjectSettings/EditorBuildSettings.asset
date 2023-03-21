@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.0/Hands Interaction Demo/Runtime/HandsDemoScene.unity
+    guid: 3ff35cecbcc52cc42945cf531638a60a
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f79e94ceb93b140468062a946c20bdf4, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 715c53bc643a0453db85f9054994259c, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 01e876d1ed0b0432395475eb1751b1cd, type: 2}
