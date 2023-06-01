@@ -41,6 +41,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-7873047839160638022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ef765ef514e4695977f0552d0b9e21, type: 3}
+  m_Name: XRMeshingSubsystemTestFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-7218372211778407828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +121,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-6030684172497306427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: XRMeshingSubsytemTestFeature Android
+  m_EditorClassIdentifier: Assembly-CSharp:SS:XRMeshingSubsytemTestFeature
+  m_enabled: 1
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-5838600970657649069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +180,27 @@ MonoBehaviour:
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
   openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-4325877641652448422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: XRMeshingSubsytemTestFeature Android
+  m_EditorClassIdentifier: Assembly-CSharp:SS:XRMeshingSubsytemTestFeature
+  m_enabled: 0
+  <failedInitialization>k__BackingField: 0
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
   company: Unity
   priority: 0
   required: 0
@@ -199,6 +260,27 @@ MonoBehaviour:
   priority: 0
   required: 0
   ignoreValidationErrors: 0
+--- !u!114 &-2515880326196325504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: XRMeshingSubsytemTestFeature Standalone
+  m_EditorClassIdentifier: Assembly-CSharp:SS:XRMeshingSubsytemTestFeature
+  m_enabled: 0
+  <failedInitialization>k__BackingField: 0
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-2309566533407336003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +418,46 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &966136953416676271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ef765ef514e4695977f0552d0b9e21, type: 3}
+  m_Name: XRMeshingSubsystemTestFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &1170850380465960484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: XRMeshingSubsytemTestFeature Standalone
+  m_EditorClassIdentifier: Assembly-CSharp:SS:XRMeshingSubsytemTestFeature
+  m_enabled: 0
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &1328824092702099664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,14 +479,49 @@ MonoBehaviour:
   - {fileID: 5406668718269688634}
   - {fileID: 2157818767926304530}
   - {fileID: 548054966466721339}
+  - {fileID: 8972862646699766649}
   - {fileID: 4796860695739459601}
   - {fileID: -6369192380459421182}
   - {fileID: -8292372187065626678}
   - {fileID: -6246340772403374000}
   - {fileID: -5838600970657649069}
   - {fileID: -1897397186674909715}
+  - {fileID: -7873047839160638022}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+--- !u!114 &1702834022710445100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
+  m_Name: MetaXRFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: MetaXR Feature
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.metaxr
+  openxrExtensionStrings: 'XR_KHR_vulkan_enable XR_KHR_D3D11_enable XR_OCULUS_common_reference_spaces
+    XR_FB_display_refresh_rate XR_EXT_performance_settings XR_FB_composition_layer_image_layout
+    XR_KHR_android_surface_swapchain XR_FB_android_surface_swapchain_create XR_KHR_composition_layer_color_scale_bias
+    XR_FB_color_space XR_EXT_hand_tracking XR_FB_swapchain_update_state XR_FB_swapchain_update_state_opengl_es
+    XR_FB_swapchain_update_state_vulkan XR_FB_foveation XR_FB_foveation_configuration
+    XR_FB_foveation_vulkan XR_FB_composition_layer_alpha_blend XR_KHR_composition_layer_depth
+    XR_KHR_composition_layer_cylinder XR_KHR_composition_layer_cube XR_KHR_composition_layer_equirect2
+    XR_KHR_convert_timespec_time XR_KHR_visibility_mask XR_FB_render_model XR_FB_spatial_entity
+    XR_FB_spatial_entity_query XR_FB_spatial_entity_storage XR_META_performance_metrics
+    XR_FB_scene XR_FB_spatial_entity_container XR_FB_scene_capture XR_FB_face_tracking
+    XR_FB_eye_tracking XR_FB_keyboard_tracking XR_FB_passthrough XR_FB_triangle_mesh
+    XR_FB_passthrough_keyboard_hands XR_OCULUS_audio_device_guid XR_FB_common_events
+    XR_FB_space_warp XR_FB_hand_tracking_capsules XR_FB_hand_tracking_mesh XR_FB_hand_tracking_aim
+    XR_FB_touch_controller_pro XR_FB_touch_controller_proximity '
+  company: Meta
+  priority: 0
+  required: 0
 --- !u!114 &2157818767926304530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,11 +563,13 @@ MonoBehaviour:
   - {fileID: 7006631761373183918}
   - {fileID: -4508214606418897944}
   - {fileID: 5822154896619772748}
+  - {fileID: 1702834022710445100}
   - {fileID: -2309566533407336003}
   - {fileID: -2792635373053007910}
   - {fileID: 5119817983561263485}
   - {fileID: -132368300283509172}
   - {fileID: 3963807585470436694}
+  - {fileID: 966136953416676271}
   m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &2859388670057938933
@@ -434,6 +593,26 @@ MonoBehaviour:
   priority: 0
   required: 0
   message: Hello from C#!
+--- !u!114 &3285618058993395005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: XRMeshingSubsytemTestFeature Standalone
+  m_EditorClassIdentifier: Assembly-CSharp:SS:XRMeshingSubsytemTestFeature
+  m_enabled: 0
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &3963807585470436694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,6 +807,59 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_hand_tracking
   company: Unity
   priority: -100
+  required: 0
+--- !u!114 &8821263714686826496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: XRMeshingSubsytemTestFeature Android
+  m_EditorClassIdentifier: Assembly-CSharp:SS:XRMeshingSubsytemTestFeature
+  m_enabled: 1
+  nameUi: XR Meshing Subsystem Test
+  version: 0.0.1
+  featureIdInternal: com.prototyper.xr.meshing.subsystem.test
+  openxrExtensionStrings: 
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &8972862646699766649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
+  m_Name: MetaXRFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: MetaXR Feature
+  version: 0.0.1
+  featureIdInternal: com.meta.openxr.feature.metaxr
+  openxrExtensionStrings: 'XR_KHR_vulkan_enable XR_KHR_D3D11_enable XR_OCULUS_common_reference_spaces
+    XR_FB_display_refresh_rate XR_EXT_performance_settings XR_FB_composition_layer_image_layout
+    XR_KHR_android_surface_swapchain XR_FB_android_surface_swapchain_create XR_KHR_composition_layer_color_scale_bias
+    XR_FB_color_space XR_EXT_hand_tracking XR_FB_swapchain_update_state XR_FB_swapchain_update_state_opengl_es
+    XR_FB_swapchain_update_state_vulkan XR_FB_foveation XR_FB_foveation_configuration
+    XR_FB_foveation_vulkan XR_FB_composition_layer_alpha_blend XR_KHR_composition_layer_depth
+    XR_KHR_composition_layer_cylinder XR_KHR_composition_layer_cube XR_KHR_composition_layer_equirect2
+    XR_KHR_convert_timespec_time XR_KHR_visibility_mask XR_FB_render_model XR_FB_spatial_entity
+    XR_FB_spatial_entity_query XR_FB_spatial_entity_storage XR_META_performance_metrics
+    XR_FB_scene XR_FB_spatial_entity_container XR_FB_scene_capture XR_FB_face_tracking
+    XR_FB_eye_tracking XR_FB_keyboard_tracking XR_FB_passthrough XR_FB_triangle_mesh
+    XR_FB_passthrough_keyboard_hands XR_OCULUS_audio_device_guid XR_FB_common_events
+    XR_FB_space_warp XR_FB_hand_tracking_capsules XR_FB_hand_tracking_mesh XR_FB_hand_tracking_aim
+    XR_FB_touch_controller_pro XR_FB_touch_controller_proximity '
+  company: Meta
+  priority: 0
   required: 0
 --- !u!114 &9100860875246586605
 MonoBehaviour:

@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/2.3.0/Hands Interaction Demo/Runtime/HandsDemoScene.unity
     guid: 3ff35cecbcc52cc42945cf531638a60a
+  - enabled: 0
+    path: Assets/Samples/OpenXR Plugin/1.6.0/Meshing Subsystem Feature/MeshingFeature.unity
+    guid: d1889e247a55eae4d96baf9f3b786800
+  - enabled: 0
+    path: Assets/3rd Party/SS Meshing Subsystem/XRMeshingSubsystemTest.unity
+    guid: a7d92ad6bb6464de79b4cff7bef99ae5
+  - enabled: 1
+    path: Assets/3rd Party/SS OVR/SSOVRTest.unity
+    guid: ffba0615ad64049569b436b60a6687ad
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f79e94ceb93b140468062a946c20bdf4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 715c53bc643a0453db85f9054994259c, type: 2}
