@@ -1,5 +1,46 @@
 {
   "dependencies": {
+    "com.htc.upm.wave.openxr": {
+      "version": "1.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.xr.management": "4.2.1",
+        "com.unity.xr.openxr": "1.3.1"
+      },
+      "url": "https://npm-registry.vive.com"
+    },
+    "com.prototyper.buildpipeline": {
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "eddf7dda37dd008bff978ef209f41e41728312eb"
+    },
+    "com.prototyper.packagehelper": {
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.packagehelper#packagehelper-v0.3.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "5b7f51e8e84c8c9bbcb32dc67d761489eb3c6d5a"
+    },
+    "com.prototyper.utility": {
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.utility#utility-v0.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3bc9d43b07b2ad7a9c0d6a57d3f3c9864c96b32f"
+    },
+    "com.prototyper.xrsetup": {
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "335cc800d0f37dabe8a1732ba6ada53151b90ff9"
+    },
     "com.unity.burst": {
       "version": "1.8.2",
       "depth": 1,
@@ -97,6 +138,13 @@
     "com.unity.mobile.android-logcat": {
       "version": "1.3.2",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.0.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -270,7 +318,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.2.0",
+      "version": "4.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -292,13 +340,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr": {
-      "version": "1.6.0",
-      "depth": 1,
+      "version": "1.8.0",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
         "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.inputsystem": "1.4.4"
+        "com.unity.inputsystem": "1.4.4",
+        "com.unity.xr.core-utils": "2.1.1"
       },
       "url": "https://packages.unity.com"
     },
