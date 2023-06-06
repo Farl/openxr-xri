@@ -224,7 +224,7 @@ QualitySettings:
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: All-in-One XR
-    pixelLightCount: 4
+    pixelLightCount: 1
     shadows: 2
     shadowResolution: 2
     shadowProjection: 1

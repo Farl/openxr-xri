@@ -12,11 +12,18 @@
       "url": "https://npm-registry.vive.com"
     },
     "com.prototyper.buildpipeline": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.2",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.3",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "eddf7dda37dd008bff978ef209f41e41728312eb"
+      "hash": "79f55a74d142e7bb8ac5ad8e38dace84059cbb75"
+    },
+    "com.prototyper.essential": {
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b1877ab539235cdb443a8f14a8034866900fa8b4"
     },
     "com.prototyper.packagehelper": {
       "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.packagehelper#packagehelper-v0.3.1",
@@ -120,8 +127,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.0",
-      "depth": 1,
+      "version": "1.5.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -340,14 +347,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr": {
-      "version": "1.8.0",
-      "depth": 0,
+      "version": "1.6.0",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.0.1",
         "com.unity.xr.legacyinputhelpers": "2.1.2",
-        "com.unity.inputsystem": "1.4.4",
-        "com.unity.xr.core-utils": "2.1.1"
+        "com.unity.inputsystem": "1.4.4"
       },
       "url": "https://packages.unity.com"
     },
