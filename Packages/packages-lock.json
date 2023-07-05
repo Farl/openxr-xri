@@ -19,11 +19,11 @@
       "hash": "79f55a74d142e7bb8ac5ad8e38dace84059cbb75"
     },
     "com.prototyper.essential": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.3",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.4",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b1877ab539235cdb443a8f14a8034866900fa8b4"
+      "hash": "d5eed33c59d339fa9f77258eee45230f95b99a7e"
     },
     "com.prototyper.packagehelper": {
       "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.packagehelper#packagehelper-v0.3.1",
