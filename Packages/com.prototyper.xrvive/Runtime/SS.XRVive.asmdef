@@ -1,0 +1,28 @@
+{
+    "name": "SS.XRVive",
+    "rootNamespace": "SS",
+    "references": [
+        "GUID:d0a204fb2c62e9f4caca92f1c1e8c06b",
+        "GUID:1cc45ecc15bce6842b65833f82aeba25"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.htc.upm.wave.openxr",
+            "expression": "",
+            "define": "USE_VIVE_WAVE"
+        },
+        {
+            "name": "com.htc.upm.wave.openxr.toolkit",
+            "expression": "",
+            "define": "USE_VIVE_WAVE_TOOLKIT"
+        }
+    ],
+    "noEngineReferences": false
+}

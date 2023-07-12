@@ -1,0 +1,27 @@
+{
+  "name": "com.prototyper.xr",
+  "version": "0.0.1",
+  "displayName": "SS XR",
+  "description": "XR",
+  "unity": null,
+  "unityRelease": null,
+  "documentationUrl": null,
+  "changelogUrl": null,
+  "licensesUrl": null,
+  "dependencies": {},
+  "keywords": [],
+  "author": {
+    "name": "Farl Lee",
+    "email": "spring_snow@hotmail.com",
+    "url": null
+  },
+  "hideInEditor": false,
+  "license": null,
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "",
+    "revision": ""
+  },
+  "hideFlags": 0
+}
