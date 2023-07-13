@@ -20,7 +20,7 @@ namespace SS
             Projected
         }
 
-#if !USE_VIVE_WAVE
+#if !USE_VIVE_WAVE_TOOLKIT
     enum LayerType
     {
         Overlay = 1,
@@ -77,7 +77,7 @@ namespace SS
                     EnablePassthrough(false);
                 }
 
-#if USE_VIVE_WAVE
+#if USE_VIVE_WAVE && USE_VIVE_WAVE_TOOLKIT
                 // Enable passthrough
                 switch (PassthroughMethod)
                 {
@@ -113,7 +113,7 @@ namespace SS
             else
             {
                 // Disable passthrough
-#if USE_VIVE_WAVE
+#if USE_VIVE_WAVE && USE_VIVE_WAVE_TOOLKIT
                 if (ID != 0)
                     CompositionLayerPassthroughAPI.DestroyPassthrough(ID);
 #endif
@@ -145,7 +145,7 @@ namespace SS
                 return;
             if (ID == 0)
                 return;
-#if USE_VIVE_WAVE
+#if USE_VIVE_WAVE && USE_VIVE_WAVE_TOOLKIT
             CompositionLayerPassthroughAPI.SetProjectedPassthroughMeshTransform(ID, ProjectedPassthroughSpaceType.Worldlock, Cam.InverseTransformDirection(Trans.position), Quaternion.Inverse(Cam.rotation) * Trans.rotation, Trans.lossyScale);
 #endif
         }

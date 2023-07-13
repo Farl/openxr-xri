@@ -133,6 +133,25 @@ namespace SS
             if (Instance == null)
                 Instance = this;
 
+            if (!fixTransform)
+            {
+                if (xrOrigin == null)
+                    xrOrigin = GetComponentInParent<XROrigin>();
+                if (xrOrigin)
+                {
+                    var fixObj = new GameObject("FixTransform");
+                    fixTransform = fixObj.transform;
+                    fixTransform.SetParent(transform, worldPositionStays: false);
+                    fixTransform.localPosition = Vector3.zero;
+                    fixTransform.localRotation = Quaternion.identity;
+                    fixTransform.localScale = Vector3.one;
+
+                    if (xrOrigin.CameraFloorOffsetObject)
+                    {
+                        xrOrigin.CameraFloorOffsetObject.transform.SetParent(fixTransform, worldPositionStays: true);
+                    }
+                }
+            }
             if (fixTransform)
             {
                 fixTransform.localPosition = fixLocalPos;
