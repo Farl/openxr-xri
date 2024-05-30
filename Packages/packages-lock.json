@@ -21,18 +21,18 @@
       "url": "https://npm-registry.vive.com"
     },
     "com.prototyper.buildpipeline": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.3",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.4",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "79f55a74d142e7bb8ac5ad8e38dace84059cbb75"
+      "hash": "fe5cd3f4adbee71fd8c9d3666baa21e27f195b25"
     },
     "com.prototyper.essential": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.4",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.8",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "6e0f65643fba1b86d43a3ad809e7cbd0ec0afdc1"
+      "hash": "fd1eff04ab05cd55b2500c03d9d7690352589a0d"
     },
     "com.prototyper.packagehelper": {
       "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.packagehelper#packagehelper-v0.3.1",
@@ -54,14 +54,19 @@
       "version": "file:com.prototyper.xr",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.prototyper.essential": "",
+        "com.prototyper.utility": ""
+      }
     },
     "com.prototyper.xrsetup": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.2",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.5",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "335cc800d0f37dabe8a1732ba6ada53151b90ff9"
+      "dependencies": {
+        "com.prototyper.utility": ""
+      },
+      "hash": "3c63855bcee25117660d10de67a27ce46814f2bd"
     },
     "com.prototyper.xrvive": {
       "version": "file:com.prototyper.xrvive",
@@ -70,7 +75,7 @@
       "dependencies": {}
     },
     "com.unity.ai.navigation": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -116,8 +121,8 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.24",
-      "depth": 0,
+      "version": "3.0.21",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -125,7 +130,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.18",
+      "version": "2.0.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -141,7 +146,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.6.1",
+      "version": "1.6.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -244,7 +249,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -253,7 +258,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.7.5",
+      "version": "1.7.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
