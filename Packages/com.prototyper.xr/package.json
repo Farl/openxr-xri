@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "displayName": "SS XR",
   "description": "XR",
-  "unity": null,
-  "unityRelease": null,
   "documentationUrl": null,
   "changelogUrl": null,
   "licensesUrl": null,
-  "dependencies": {},
+  "dependencies": {
+    "com.prototyper.essential": "",
+    "com.prototyper.utility": ""
+  },
   "keywords": [],
   "author": {
     "name": "Farl Lee",
