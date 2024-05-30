@@ -60,13 +60,14 @@
       }
     },
     "com.prototyper.xrsetup": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.5",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.6",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.prototyper.utility": ""
+        "com.prototyper.utility": "",
+        "com.prototyper.buildpipeline": ""
       },
-      "hash": "3c63855bcee25117660d10de67a27ce46814f2bd"
+      "hash": "96dcd3ba6d66a115f1cb720e85e5b98f8fbcf890"
     },
     "com.prototyper.xrvive": {
       "version": "file:com.prototyper.xrvive",
