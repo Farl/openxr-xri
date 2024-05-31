@@ -28,11 +28,11 @@
       "hash": "fe5cd3f4adbee71fd8c9d3666baa21e27f195b25"
     },
     "com.prototyper.essential": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.8",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.10",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "fd1eff04ab05cd55b2500c03d9d7690352589a0d"
+      "hash": "970e31279d6078113be3b69fc86b65076296ba83"
     },
     "com.prototyper.packagehelper": {
       "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.packagehelper#packagehelper-v0.3.1",
@@ -60,14 +60,14 @@
       }
     },
     "com.prototyper.xrsetup": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.6",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.7",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.prototyper.utility": "",
         "com.prototyper.buildpipeline": ""
       },
-      "hash": "96dcd3ba6d66a115f1cb720e85e5b98f8fbcf890"
+      "hash": "289bff011060640cdb0a80bed256354f1c729924"
     },
     "com.prototyper.xrvive": {
       "version": "file:com.prototyper.xrvive",
