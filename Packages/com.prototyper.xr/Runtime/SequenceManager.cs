@@ -19,7 +19,7 @@ namespace SS
             CurrentController.OnTrigger(args, onCheck, immediate);
         }
 
-        public static void OnInteractable(XRBaseInteractable interactable, BaseInteractionEventArgs args, System.Action<bool> onCheck = null, bool immediate = false)
+        public static void OnInteractable(UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable, BaseInteractionEventArgs args, System.Action<bool> onCheck = null, bool immediate = false)
         {
             if (CurrentController == null) { onCheck?.Invoke(true); return; }
             CurrentController.OnInteractable(interactable, args, onCheck, immediate);

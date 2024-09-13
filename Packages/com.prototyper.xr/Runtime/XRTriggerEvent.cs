@@ -1,12 +1,12 @@
 
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 namespace SS
 {
     public class TriggerBaseEventArgs
     {
-        public IXRInteractor interactorObj;
+        public UnityEngine.XR.Interaction.Toolkit.Interactors.IXRInteractor interactorObj;
         public IXRTrigger triggerObj;
         public IXREquipmentInteractable equipmentInteractable;
         public Transform equipmentTransform;

@@ -15,10 +15,11 @@ EditorBuildSettings:
     path: Assets/3rd Party/SS OVR/SSOVRTest.unity
     guid: ffba0615ad64049569b436b60a6687ad
   - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/DemoScene.unity
+    path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f79e94ceb93b140468062a946c20bdf4, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 8512174f79e0a4edb8081872859d3bae, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: dc54b4b69ca764fd296e0bf42c8bbdad, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 715c53bc643a0453db85f9054994259c, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 01e876d1ed0b0432395475eb1751b1cd, type: 2}

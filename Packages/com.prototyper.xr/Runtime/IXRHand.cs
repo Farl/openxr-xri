@@ -17,7 +17,7 @@ namespace SS
         public void OnDeactivated(DeactivateEventArgs args);
         public void OnSelectEntered(SelectEnterEventArgs args);
         public void OnSelectExited(SelectExitEventArgs args);
-        public void UpdateHolding(XRBaseInteractable selectInteractable);
+        public void UpdateHolding(UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable selectInteractable);
         public bool CanAttach();
         public void Attach(GameObject go, Transform transform, IXREquipmentInteractable selectInteractable);
         public void Detach(GameObject go, Transform transform, IXREquipmentInteractable selectInteractable);

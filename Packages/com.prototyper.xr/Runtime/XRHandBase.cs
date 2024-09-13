@@ -62,7 +62,7 @@ namespace SS
             }
         }
 
-        public void UpdateHolding(XRBaseInteractable interactable)
+        public void UpdateHolding(UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable)
         {
             // Animation
             if (animator && animator.isActiveAndEnabled)
@@ -247,7 +247,7 @@ namespace SS
         [SerializeField] private float grabSpeed = 1f;
 
         [Header("Interactor")]
-        [SerializeField] private XRBaseInteractor debugMenuInteractor;
+        [SerializeField] private UnityEngine.XR.Interaction.Toolkit.Interactors.XRBaseInteractor debugMenuInteractor;
 
         [Header("Debug")]
         [SerializeField] private bool showDebugInfo = false;
@@ -283,7 +283,7 @@ namespace SS
         #region Private/Protected
         private Transform cachedTransform;
         private StateMachine<State> stateMachine;
-        private IXRActivateInteractor activateInteractor = null;
+        private UnityEngine.XR.Interaction.Toolkit.Interactors.IXRActivateInteractor activateInteractor = null;
         private IXRTrigger currTrigger = null;
         private IXRTrigger prevTrigger = null;
         private List<IXRTrigger> triggerList = new List<IXRTrigger>();

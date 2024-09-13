@@ -7,7 +7,7 @@ using TMPro;
 
 namespace SS
 {
-    public class XRHandAdjust : XRBaseInteractable
+    public class XRHandAdjust : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
         [SerializeField] private Transform adjustTransform;
         [SerializeField] private bool _interactable;
@@ -77,7 +77,7 @@ namespace SS
             var origInteractorMatrix = interactorTransform.localToWorldMatrix;
 
             var origMatrix = adjustTransform.localToWorldMatrix;
-            while (selectArgs.interactableObject == this as IXRInteractable)
+            while (selectArgs.interactableObject == this as UnityEngine.XR.Interaction.Toolkit.Interactables.IXRInteractable)
             {
                 var currMatrix = interactorTransform.localToWorldMatrix;
                 

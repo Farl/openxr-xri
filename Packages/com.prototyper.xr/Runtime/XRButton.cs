@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace SS
 {
-    public class XRButton : XRBaseInteractable
+    public class XRButton : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
         #region Public Classes / Enums
         public enum InteractableMessage

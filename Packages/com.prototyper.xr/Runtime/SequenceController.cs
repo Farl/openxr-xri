@@ -18,7 +18,7 @@ namespace SS
             return true;
         }
 
-        public void OnInteractable(XRBaseInteractable interactable, BaseInteractionEventArgs args, Action<bool> onCheck = null, bool immediate = false)
+        public void OnInteractable(UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable interactable, BaseInteractionEventArgs args, Action<bool> onCheck = null, bool immediate = false)
         {
             onCheck?.Invoke(true);
         }
