@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BasicVR.unity
+    path: Assets/openxr-xri/Scenes/BasicVR.unity
     guid: 5a7d26ef2823549b3a66dd230d51de4d
   - enabled: 0
     path: Assets/3rd Party/SS Meshing Subsystem/XRMeshingSubsystemTest.unity
@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/3rd Party/SS OVR/SSOVRTest.unity
     guid: ffba0615ad64049569b436b60a6687ad
   - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
+    path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f79e94ceb93b140468062a946c20bdf4, type: 2}
