@@ -1,38 +1,31 @@
 {
   "dependencies": {
-    "com.htc.upm.wave.openxr": {
-      "version": "1.0.5",
+    "com.htc.upm.vive.openxr": {
+      "version": "https://github.com/ViveSoftware/VIVE-OpenXR.git?path=com.htc.upm.vive.openxr",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
-        "com.unity.inputsystem": "1.3.0",
+        "com.unity.inputsystem": "1.4.3",
         "com.unity.xr.management": "4.2.1",
         "com.unity.xr.openxr": "1.3.1"
       },
-      "url": "https://npm-registry.vive.com"
-    },
-    "com.htc.upm.wave.openxr.toolkit": {
-      "version": "1.0.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.htc.upm.wave.openxr": "1.0.5"
-      },
-      "url": "https://npm-registry.vive.com"
+      "hash": "fa1969a087931a73f03da19d30a78aa93f2be73c"
     },
     "com.prototyper.buildpipeline": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.4",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.buildpipeline#buildpipeline-v0.0.6",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "fe5cd3f4adbee71fd8c9d3666baa21e27f195b25"
+      "hash": "04b2b51d8671976b0b2c03bca638278fbddd93d8"
     },
     "com.prototyper.essential": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.10",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.essential#essential-v0.0.17",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "970e31279d6078113be3b69fc86b65076296ba83"
+      "dependencies": {
+        "com.prototyper.buildpipeline": ""
+      },
+      "hash": "2df2ce3f0990d911d254c461a834c9d61a0f2b54"
     },
     "com.prototyper.packagehelper": {
       "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.packagehelper#packagehelper-v0.3.1",
@@ -60,14 +53,14 @@
       }
     },
     "com.prototyper.xrsetup": {
-      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.0.7",
+      "version": "git+ssh://git@github.com/Farl/SSCore2017.git?path=/Packages/com.prototyper.xrsetup#xrsetup-v0.1.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.prototyper.utility": "",
         "com.prototyper.buildpipeline": ""
       },
-      "hash": "289bff011060640cdb0a80bed256354f1c729924"
+      "hash": "47221f1b42a4bde5a234ebcf5ca2f8ed2ccc8faa"
     },
     "com.prototyper.xrvive": {
       "version": "file:com.prototyper.xrvive",
